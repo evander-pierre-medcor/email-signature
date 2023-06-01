@@ -103,3 +103,11 @@ margin-right: 20px;
     transition: .6s;
     color: #990000;
   }
+
+  .hide{
+    display: none;
+  }
+
+  video {
+    width: 100%;
+  }
