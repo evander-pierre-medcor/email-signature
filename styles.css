@@ -83,6 +83,8 @@ video {
   border-left: 20px solid red;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0;
 }svg {
   margin-right: 15px;
 }
