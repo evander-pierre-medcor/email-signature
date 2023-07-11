@@ -73,7 +73,7 @@ button:hover {
 
 video {
   width: 100%;
-}p#notice {
+}#notice {
   background: white;
   padding: 15px 15px;
   color: black;
@@ -87,4 +87,7 @@ video {
   top: 0;
 }svg {
   margin-right: 15px;
+}
+div#notice p {
+  margin: 0;
 }
