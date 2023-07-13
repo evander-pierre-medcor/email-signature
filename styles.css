@@ -32,6 +32,7 @@ h1 {
   line-height: 34px;
 }
 
+
 p, ul, ol, li, button {
   font-size: 14px;
   line-height: 24px;
@@ -59,6 +60,7 @@ button {
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 button:hover {
@@ -90,4 +92,38 @@ video {
 }
 div#notice p {
   margin: 0;
+}
+/*Tabs*/
+.tabcontent {
+  display: none;
+}
+
+.tabs {
+  overflow: hidden;
+}
+
+/* .tab {
+  float: left;
+} */
+
+.tab button {
+ 
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.tab button:hover {
+}
+
+.tabcontent {
+  padding: 0px 0px 20px 0px;
+}
+.tab-btn-wrapper {
+  display: flex;
+}
+button.tablinks.active {
+  background: white;
+  color: #990000;
 }

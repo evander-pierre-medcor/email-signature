@@ -20,12 +20,10 @@
 
 
             </p>
-            <div id="notice"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
-               <path d="M15,3C8.373,3,3,8.373,3,15c0,6.627,5.373,12,12,12s12-5.373,12-12C27,8.373,21.627,3,15,3z M16,21h-2v-7h2V21z M15,11.5 c-0.828,0-1.5-0.672-1.5-1.5s0.672-1.5,1.5-1.5s1.5,0.672,1.5,1.5S15.828,11.5,15,11.5z"></path>
-           </svg><p>For Implementation, use <a href="https://outlook.office.com/" target="_blank"> Microsoft Outlook </a> in your Web Browser (Chrome, Firefox, Microsoft Edge or etc)</p></div>
             <h3>Click a Button Below to Copy the Template</h3>
             <button onclick="copyText()">Email Signature for Medcor USA</button>
-            <button onclick="copyTextCA()">Email Signature for Medcor Canada</button>
+            <button onclick="copyTextCA()">Email Signature for Medcor CANADA</button>
+            <button onclick="copyTextPH()" class="hide">Email Signature for Medcor PHILIPPINES</button>
          </div>
         
          <div>
@@ -37,23 +35,82 @@
              Your browser does not support the video tag.
              </video>         </div>
          <div class="white-text">
-            <h2 class="white-text">Step by Step</h2>
-            <p>Follow the steps below to update your email signature in Outlook in your <strong><a class="white-text" target="_blank" href="https://outlook.office365.com/mail/">Internet Browser</a></strong></p>
-            <ol class="white-text">
-               <li>Click the appropiate button above related to your location (USA or Canada)</li>
-               <li>Open Outlook and click the gear icon in the top right. </li>
-               <li>Click View All Settings then click "Compose and Reply" </li>
-               <li>Now click, "+ New Signature" </li>
-               <li>Enter the Email Signature Name "Medcor Email Signature"</li>
-               <li>Paste the Email Signature into the text box</li>
-               <li>Now Edit the Template by entering or removing any information</li>
-               <li>Click SAVE to save your changes and remain on that page.</li>
-               <li>In the "Select Default Signatures" section, select your newly added signature for "New Messages" & "Replies /Fowards"</li>
-               <li>Click SAVE to save your changes.</li>
-               <li>Compose a new email or reply to an existing email to see your updated email signature.</li>
-               <li>Congratulations, you've installed your Email Signature!</li>
-            </ol>
+            <h2 class="white-text">Instructions</h2>
+            
+
+            <div class="tabs">
+               <div class="tab-btn-wrapper">
+               <div class="tab">
+                 <button class="tablinks" onclick="openTab(event, 'tab1')">Microsoft Outlook in Browser</button>
+               </div>
+               <div class="tab">
+                 <button class="tablinks" onclick="openTab(event, 'tab2')">Microsoft Outlook Desktop Client</button>
+               </div>
+            </div>
+               
+               <div id="tab1" class="tabcontent">
+                 <p>Follow the steps below to update your email signature in Outlook in your <strong><a class="white-text" target="_blank" href="https://outlook.office365.com/mail/">Internet Browser</a></strong></p>
+                 <ol class="white-text">
+                    <li>Click the appropiate button above related to your location (USA or Canada)</li>
+                    <li>Open Outlook and click the gear icon in the top right. </li>
+                    <li>Click View All Settings then click "Compose and Reply" </li>
+                    <li>Now click, "+ New Signature" </li>
+                    <li>Enter the Email Signature Name "Medcor Email Signature"</li>
+                    <li>Paste the Email Signature into the text box</li>
+                    <li>Now Edit the Template by entering or removing any information</li>
+                    <li>Click SAVE to save your changes and remain on that page.</li>
+                    <li>In the "Select Default Signatures" section, select your newly added signature for "New Messages" & "Replies /Fowards"</li>
+                    <li>Click SAVE to save your changes.</li>
+                    <li>Compose a new email or reply to an existing email to see your updated email signature.</li>
+                    <li>Congratulations, you've installed your Email Signature!</li>
+                 </ol>               </div>
+               
+               <div id="tab2" class="tabcontent">
+                
+
+                  <p>Follow the steps below to update your email signature in Outlook in Microsoft Outlook for Desktop.</p>
+                  <ol class="white-text">
+                  
+                     <li>Click the appropriate button above related to your location (USA or Canada).</li>
+                  <li>Open Outlook and click the File Tab, followed by Options in the far bottom left corner.</li>
+                     <li>Select Mail, then Signatures and click on NEW.</li>
+                     <li>Enter the name for your email signature, such as "Medcor Email Signature," in the provided field.</li>
+                     <li>Copy the desired email signature format that you have prepared.</li>
+                  <li>Paste the copied email signature into the text box provided.</li>
+                     <li>Edit the template by adding or removing any information as needed.</li>
+                     <li>Once you are satisfied with your changes, click on the "Save" button to save your updated signature. Make sure to remain on that page.</li>
+                      <li>In the "Select Default Signatures" section, locate the newly added signature in the dropdown menus for both "New Messages" and "Replies/Forwards."</li>
+                     <li>After selecting your new signature for both options, click the "Save" button to save your changes.</li>
+                     <li>To confirm that your updated email signature is working correctly, compose a new email or reply to an existing email. Your signature should appear as intended.</li>
+                     <li>Congratulations! You have successfully updated your email signature in desktop Outlook.</li>
+
+
+
+
+
+                  </ol> 
+
+
+
+
+
+
+
+
+
+
+
+               </div>
+               
+              
+             </div>
+
+             
+
+           
          </div>
+
+
 
          <article>
             <div class="accordion white-text"><h4>USA Template</h4></div>
@@ -91,13 +148,13 @@
                                  <div>
                                     <p style="margin: 1px;margin-top: 20px;">
                                        <a href="https://www.linkedin.com/company/medcor/" target="_blank" style="display: inline-block;">
-                                       <img src="https://signaturehound.com/api/v1/png/linkedin/square/383434.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
+                                       <img src="https://medcor.com/wp-content/uploads/2023/07/linkedin-email-sign.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
                                        </a>
                                        <a href="https://www.instagram.com/medcorclinics/" target="_blank" style="display: inline-block;">
-                                       <img src="https://signaturehound.com/api/v1/png/instagram/square/383434.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
+                                       <img src="https://medcor.com/wp-content/uploads/2023/07/instagram-email-sign.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
                                        </a>
                                        <a href="https://www.youtube.com/@Medcor" target="_blank" style="display: inline-block;">
-                                       <img src="https://signaturehound.com/api/v1/png/youtube/square/383434.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
+                                       <img src="https://medcor.com/wp-content/uploads/2023/07/youtube-email-sign.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
                                        </a>
                                     </p>
                                  </div>
@@ -147,13 +204,13 @@
                                  <div>
                                     <p style="margin: 1px;margin-top: 20px;">
                                        <a href="https://www.linkedin.com/company/medcor/" target="_blank" style="display: inline-block;">
-                                       <img src="https://signaturehound.com/api/v1/png/linkedin/square/383434.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
+                                       <img src="https://medcor.com/wp-content/uploads/2023/07/linkedin-email-sign.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
                                        </a>
                                        <a href="https://www.instagram.com/medcorclinics/" target="_blank" style="display: inline-block;">
-                                       <img src="https://signaturehound.com/api/v1/png/instagram/square/383434.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
+                                       <img src="https://medcor.com/wp-content/uploads/2023/07/instagram-email-sign.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
                                        </a>
                                        <a href="https://www.youtube.com/@Medcor" target="_blank" style="display: inline-block;">
-                                       <img src="https://signaturehound.com/api/v1/png/youtube/square/383434.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
+                                       <img src="https://medcor.com/wp-content/uploads/2023/07/youtube-email-sign.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
                                        </a>
                                     </p>
                                  </div>
@@ -166,7 +223,65 @@
                      </section>
                   </div>
                </article>         </div>
-         </article>
+         
+         
+         <!--Insrtt here-->
+         <div class="accordion hide"><h4 class="white-text">Philippines Template</h4></div>
+         <div class="panel hide">
+            <article class="email-signature-ph">
+               <div class="white-bg code-block">
+                  <section>
+                     <section style="font-family: Arial, sans-serif;">
+                        <div>
+                           <div>
+                              <div>
+                                 <p style="margin:1px; font-size: 14px; line-height: 18px; font-weight: 700; color: #000; white-space: nowrap;">%%firstname%% %%lastname%%</p>
+                                 <p style="margin:1px; font-size: 12px; line-height: 16px; color: #000; white-space: nowrap;">%%title%% | %%department%%</p>
+                              </div>
+                              <div>
+                                 <p style="margin:1px; color: #000; font-size: 12px; line-height: 16px; white-space: nowrap; text-decoration: none!important;">p. %%phonenumber%%
+                                 </p>
+                                 <p style="margin:1px; color: #000; font-size: 12px; line-height: 16px; white-space: nowrap; text-decoration: none!important;">c. 1-844-651-0137 
+                                 </p>
+                              </div>
+                              <div>
+                                 <p style="margin:1px; color: #000; font-size: 12px; line-height: 16px; white-space: nowrap; text-decoration: none!important;">%%email%%
+                                 </p>
+                              </div>
+                              <div>
+                                 <p style="margin:1px; color: #000; font-size: 12px; line-height: 16px; white-space: nowrap; text-decoration: none!important;">Unit 8, 6110 48 Avenue
+                                    Ponoka, AB | T4J 1K3</p>
+                              </div>
+                              <div>
+                                 <div>
+                                    <a href="https://medcor.com" target="_blank">
+                                    <img src="https://medcor.com/wp-content/uploads/2023/07/email-signature-medcor-philipines-transp.png" alt="" title="Logo" style="margin-top: 10px;width:100px;height: 50px;" width="100" height="50" >
+                                    </a>
+                                 </div>
+                              </div>
+                              <div>
+                                 <p style="margin: 1px;margin-top: 20px;">
+                                    <a href="https://www.linkedin.com/company/medcor/" target="_blank" style="display: inline-block;">
+                                    <img src="https://medcor.com/wp-content/uploads/2023/07/linkedin-email-sign.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
+                                    </a>
+                                    <a href="https://www.instagram.com/medcorclinics/" target="_blank" style="display: inline-block;">
+                                    <img src="https://medcor.com/wp-content/uploads/2023/07/instagram-email-sign.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
+                                    </a>
+                                    <a href="https://www.youtube.com/@Medcor" target="_blank" style="display: inline-block;">
+                                    <img src="https://medcor.com/wp-content/uploads/2023/07/youtube-email-sign.png" alt="" width="30" height="30" style="border: 0px; max-width: 30px;">
+                                    </a>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                     <div style="margin-top: 5px;">
+                        <p style="font-family: Arial, sans-serif; font-size: 11px; line-height: 14px; color: black; background-color:#D5EAFF; padding:20px; border:1px dotted #003333; margin: 1px;">Disclaimer: The information contained in this transmission may contain privileged and confidential information, including patient information protected by federal and state privacy laws. It is intended only for the use of the person(s) named above. If you are not the intended recipient, you are hereby notified that any review, dissemination, distribution, or duplication of this communication is strictly prohibited. If you are not the intended recipient, please contact the sender by reply email and destroy all copies of the original message.</p>
+                     </div>
+                  </section>
+               </div>
+            </article>         </div>
+            </article>
       </section>
       <script>
          function copyText() {
@@ -192,6 +307,46 @@
            document.execCommand('copy');
            alert("Success! You have copied the signature to your clipboard! Now go ahead and paste it in Outlook in your internet browser in the Compose and Reply section.");
          }
+      </script>
+       <script>
+         function copyTextPH () {
+           const signature = document.querySelector('.email-signature-ph');
+           const range = document.createRange();
+           range.selectNode(signature);
+           const selection = window.getSelection();
+           selection.removeAllRanges();
+           selection.addRange(range);
+           document.execCommand('copy');
+           alert("Success! You have copied the signature to your clipboard! Now go ahead and paste it in Outlook in your internet browser in the Compose and Reply section.");
+         }
+      </script>
+      <script>
+         function openTab(event, tabName) {
+  var i, tabcontent, tablinks;
+  
+  // Hide all tab content
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  
+  // Remove active class from tab buttons
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active");
+  }
+  
+  // Show the selected tab content
+  document.getElementById(tabName).style.display = "block";
+  
+  // Add active class to the clicked tab button
+  event.currentTarget.classList.add("active");
+}
+
+// Show the default tab on page load
+document.getElementById("tab1").style.display = "block";
+document.getElementsByClassName("tablinks")[0].classList.add("active");
+
       </script>
    </body>
 </html>
